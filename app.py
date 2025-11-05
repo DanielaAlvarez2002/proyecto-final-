@@ -143,6 +143,7 @@ tabla_sent = dash_table.DataTable(
 )
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H2("Análisis de Opiniones de Clientes", style={'textAlign': 'center', 'color': '#1f77b4'}),
@@ -222,3 +223,4 @@ def analizar_sentimiento_usuario(n_clicks, comentario):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
