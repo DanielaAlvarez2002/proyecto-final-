@@ -1,10 +1,10 @@
-dash==3.2.0
-matplotlib==3.10.7
+dash==2.17.1
+matplotlib==3.9.2
 nltk==3.9.2
 pandas==2.3.3
-plotly==6.3.1
+plotly==5.23.0
 spacy==3.7.2
 textblob==0.19.0
-wordcloud==1.9.4
-gunicorn
+wordcloud==1.9.3
 es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.7.0/es_core_news_sm-3.7.0.tar.gz
+gunicorn
